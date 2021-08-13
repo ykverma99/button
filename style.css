@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    background: linear-gradient(45deg, white 2%, black 85%);
+}
+button{
+    padding: 10px 15px;
+    background: linear-gradient(90deg,red 0%, rgba(0, 0, 255, 0.87) 51%);
+    transition: background 0.5s ease-in-out;
+    background-size: 400% auto;
+}
+button:hover{
+    background: linear-gradient(90deg,rgba(0, 0, 255, 0.801) 0%,red 50%);
+    background-size: 100% auto;
+}
